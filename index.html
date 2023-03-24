@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Room homepage</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;600;700&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class="page">
+  <header class="header">
+    <div class="container">
+      <nav class="navbar">
+        <button type="button" class="navbar-toggle" data-target="#menu" aria-expanded="false">
+          <img class="icon-bar open" src="./images/icon-hamburger.svg" />
+          <img class="icon-bar close" src="./images/icon-close.svg" />
+        </button>
+        <a class="navbar-brand" href="#" title="Room">
+          <img src="images/logo.svg" alt="Room">
+        </a>
+        <div id="menu" class="navbar-menu">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a href="#" title="Home">Home</a></li>
+            <li class="nav-item"><a href="#" title="Shop">Shop</a></li>
+            <li class="nav-item"><a href="#" title="About">About</a></li>
+            <li class="nav-item"><a href="#" title="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <section id="carousel" class="carousel">
+      <div class="carousel-item">
+        <div class="carousel-image">
+          <img class="mobile" src="./images/mobile-image-hero-1.jpg" alt="Discover"/>
+          <img class="desktop" src="./images/desktop-image-hero-1.jpg" alt="Discover"/>
+        </div>
+        <div class="carousel-text">
+          <h2 class="carousel-title">Discover innovative ways to decorate</h2>
+          <p class="carousel-desc">We provide unmatched quality, comfort, and style for property owners across the country. Our experts combine form and function in bringing your vision to life. Create a room in your own style with our collection and make your property a reflection of you and what you love.</p>
+          <a href="#" class="carousel-link" title="Shop now">Shop now</a>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="carousel-image">
+          <img class="mobile" src="./images/mobile-image-hero-2.jpg" alt="Across the globe"/>
+          <img class="desktop" src="./images/desktop-image-hero-2.jpg" alt="Across the globe"/>
+        </div>
+        <div class="carousel-text">
+          <h2 class="carousel-title">We are available all across the globe</h2>
+          <p class="carousel-desc">With stores all over the world, it's easy for you to find furniture for your home or place of business. Locally, we’re in most major cities throughout the country. Find the branch nearest you using our store locator. Any questions? Don't hesitate to contact us today.</p>
+          <a href="#" class="carousel-link" title="Shop now">Shop now</a>
+        </div>
+      </div>
+      
+      <div class="carousel-item">
+        <div class="carousel-image">
+          <img class="mobile" src="./images/mobile-image-hero-3.jpg" alt="Best Material"/>
+          <img class="desktop" src="./images/desktop-image-hero-3.jpg" alt="Best Material"/>
+        </div>
+        <div class="carousel-text">
+          <h2 class="carousel-title">Manufactured with the best materials</h2>
+          <p class="carousel-desc">Our modern furniture store provide a high level of quality. Our company has invested in advanced technology to ensure that every product is made as perfect and as consistent as possible. With three decades of experience in this industry, we understand what customers want for their home and office.</p>
+          <a href="#" class="carousel-link" title="Shop now">Shop now</a>
+        </div>
+      </div>
+
+      <div class="carousel-controls">
+        <!-- Left and right controls -->
+        <a class="carousel-control left" href="#carousel" data-carousel="prev" title="Prev">
+          <img class="carousel-control-icon" src="./images/icon-angle-left.svg" alt="Prev">
+        </a>
+        <a class="carousel-control right" href="#carousel" data-carousel="next" title="Next">
+          <img class="carousel-control-icon" src="./images/icon-angle-right.svg" alt="Next">
+        </a>
+      </div>
+    </section>
+    <section class="furniture">
+      <div class="row">
+        <div class="col-12 col-lg-auto">
+          <img src="./images/image-about-dark.jpg" alt="About dark">
+        </div>
+        <div class="col-12 col-lg">
+          <div class="furniture-content">
+            <h3 class="furniture-title">About our furniture</h3>
+            <p class="furniture-desc">Our multifunctional collection blends design and function to suit your individual taste. Make each room unique, or pick a cohesive theme that best express your interests and what inspires you. Find the furniture pieces you need, from traditional to contemporary styles or anything in between. Product specialists are available to help you create your dream space.</p>
+          </div>
+        </div>
+        <div class="col-12 col-lg-auto">
+          <img src="./images/image-about-light.jpg" alt="About light">
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
